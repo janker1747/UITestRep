@@ -38,16 +38,10 @@ public class GalleryController : MonoBehaviour
 
     private IEnumerator SetupAndWaitForLayout()
     {
-        // ждём, пока канвас действительно посчитает размеры
-        yield return new WaitForEndOfFrame();
         yield return new WaitForEndOfFrame();
 
         ApplyGridResponsive();
         Build();
-
-        // На всякий случай подписываемся на изменение размеров
-        // (особенно полезно при повороте экрана)
-        // или можно просто в Update проверять один раз
     }
 
     private void OnDisable()

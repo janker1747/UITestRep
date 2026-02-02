@@ -704,6 +704,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2841873568639248951}
   - component: {fileID: 4614168518608638522}
+  - component: {fileID: 8518277161716339963}
   m_Layer: 5
   m_Name: Toggle (2)
   m_TagString: Untagged
@@ -780,19 +781,48 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3704548150690692043}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 8900645945700363123}
+        m_TargetAssemblyTypeName: TextChoice, Assembly-CSharp
+        m_MethodName: DisableEffects
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 1
+      - m_Target: {fileID: 8122843053685943670}
+        m_TargetAssemblyTypeName: TextChoice, Assembly-CSharp
+        m_MethodName: DisableEffects
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_IsOn: 0
+--- !u!114 &8518277161716339963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395866854378875858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fd46ea8850af31468fc36559b16cfbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Texts:
+  - {fileID: 8001488830814740375}
+  - {fileID: 5297703905986996891}
+  m_SelectedColor: {r: 0.94509804, g: 0.37254903, b: 0.7058824, a: 1}
+  m_Toggle: {fileID: 4614168518608638522}
 --- !u!1 &1724774683207770741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1085,7 +1115,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4672201884613499086
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1414,7 +1444,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7921455142115876088
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1482,6 +1512,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3671699708205725379}
   - component: {fileID: 5479547848161915456}
+  - component: {fileID: 8900645945700363123}
   m_Layer: 5
   m_Name: Toggle
   m_TagString: Untagged
@@ -1557,19 +1588,47 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3002733986545707377}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 8122843053685943670}
+        m_TargetAssemblyTypeName: TextChoice, Assembly-CSharp
+        m_MethodName: DisableEffects
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 1
+      - m_Target: {fileID: 8518277161716339963}
+        m_TargetAssemblyTypeName: TextChoice, Assembly-CSharp
+        m_MethodName: DisableEffects
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_IsOn: 0
+--- !u!114 &8900645945700363123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3617646049955331611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fd46ea8850af31468fc36559b16cfbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Texts:
+  - {fileID: 7782690670015070925}
+  m_SelectedColor: {r: 0.9450981, g: 0.37254903, b: 0.7058824, a: 1}
+  m_Toggle: {fileID: 5479547848161915456}
 --- !u!1 &3704548150690692043
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,7 +1646,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7185886267026707500
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2741,6 +2800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 125401261826439727}
   - component: {fileID: 6165103047179317418}
+  - component: {fileID: 8122843053685943670}
   m_Layer: 5
   m_Name: Toggle (1)
   m_TagString: Untagged
@@ -2817,19 +2877,48 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2643945679214325713}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 8900645945700363123}
+        m_TargetAssemblyTypeName: TextChoice, Assembly-CSharp
+        m_MethodName: DisableEffects
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
-  m_IsOn: 1
+      - m_Target: {fileID: 8518277161716339963}
+        m_TargetAssemblyTypeName: TextChoice, Assembly-CSharp
+        m_MethodName: DisableEffects
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_IsOn: 0
+--- !u!114 &8122843053685943670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6517206688293852763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fd46ea8850af31468fc36559b16cfbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Texts:
+  - {fileID: 5452945016046416839}
+  - {fileID: 3104994280744752041}
+  m_SelectedColor: {r: 0.94509804, g: 0.37254903, b: 0.7058824, a: 1}
+  m_Toggle: {fileID: 6165103047179317418}
 --- !u!1 &7315008100019907746
 GameObject:
   m_ObjectHideFlags: 0
