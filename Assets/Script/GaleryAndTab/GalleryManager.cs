@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GalleryController : MonoBehaviour
+public class GalleryManager : MonoBehaviour
 {
     [Header("UI")]
     [SerializeField] private ScrollRect _scrollRect;
@@ -113,7 +113,7 @@ public class GalleryController : MonoBehaviour
             if (visible)
                 item.LoadIfNeeded();
             else
-                item.UnloadIfNeeded(); 
+                item.UnloadIfNeeded();
         }
     }
 
@@ -130,7 +130,7 @@ public class GalleryController : MonoBehaviour
     {
         Canvas.ForceUpdateCanvases();
 
-        float screenWidth = Screen.width; 
+        float screenWidth = Screen.width;
 
         int columns = screenWidth < 1440f ? 2 : 3;
 
@@ -150,5 +150,4 @@ public class GalleryController : MonoBehaviour
         _grid.constraint = GridLayoutGroup.Constraint.FixedColumnCount;
         _grid.constraintCount = columns;
     }
-
 }

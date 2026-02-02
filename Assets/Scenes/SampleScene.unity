@@ -206,7 +206,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 602874509}
-        m_TargetAssemblyTypeName: GalleryController, Assembly-CSharp
+        m_TargetAssemblyTypeName: GalleryManager, Assembly-CSharp
         m_MethodName: SelectEven
         m_Mode: 1
         m_Arguments:
@@ -944,7 +944,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 602874509}
-        m_TargetAssemblyTypeName: GalleryController, Assembly-CSharp
+        m_TargetAssemblyTypeName: GalleryManager, Assembly-CSharp
         m_MethodName: SelectOdd
         m_Mode: 1
         m_Arguments:
@@ -1093,7 +1093,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 602874507}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e487fa7e437430459e9e01f635c57c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 41473f7d83329fa4e82f0e8f97a2db1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _scrollRect: {fileID: 1681321026}
@@ -1554,7 +1554,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000014155114, y: -0.00061035156}
+  m_AnchoredPosition: {x: 0.000014155114, y: -0.00048828125}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1010037571
@@ -3077,7 +3077,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 602874509}
-        m_TargetAssemblyTypeName: GalleryController, Assembly-CSharp
+        m_TargetAssemblyTypeName: GalleryManager, Assembly-CSharp
         m_MethodName: SelectAll
         m_Mode: 1
         m_Arguments:
